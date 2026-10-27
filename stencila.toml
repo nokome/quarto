@@ -1,0 +1,13 @@
+[workspace]
+id = "ws7edv1o4d8x"
+
+[site]
+exclude = [
+  ".git/**",
+  ".stencila/**",
+  "stencila.local.toml",
+]
+
+[outputs]
+"packages/ojs/external-observablehq-parser/test/input/basic.pdf" = "packages/ojs/external-observablehq-parser/test/input/basic.tex"
+"packages/ojs/external-observablehq-parser/test/input/underline.pdf" = "packages/ojs/external-observablehq-parser/test/input/underline.tex"
